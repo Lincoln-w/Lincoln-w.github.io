@@ -12,5 +12,8 @@
     "dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "build": "vuepress build docs"
+  },
+  "dependencies": {
+    "async-validator": "1.11.5"
   }
 }
