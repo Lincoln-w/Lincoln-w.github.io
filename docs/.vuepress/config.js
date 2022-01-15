@@ -9,7 +9,7 @@ module.exports = {
     ['meta', { 'http-quiv': 'expires', cotent: '0' }]
   ],
   serviceWorker: true, // 是否开启 PWA
-  base: '/', // 本地
+  base: './',
   markdown: {
     lineNumbers: true // 代码块是否显示行号
   },
