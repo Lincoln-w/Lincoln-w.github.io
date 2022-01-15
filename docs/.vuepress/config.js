@@ -17,19 +17,47 @@ module.exports = {
   themeConfig: {
     logo: '/images/logo.jpg',
     nav: [ // 导航栏配置
-      { text: '前端基础', link: '/accumulate/' },
-      { text: '算法题库', link: '/algorithm/' },
-      { text: '诗和远方', link: '/others/' },
-      { text: '百度', link: 'https://baidu.com' },
+      { text: '首页', link: '/' },
       {
-        text: '二级菜单',
+        text: '前端基础',
         items: [
-          { text: '百度', link: 'https://baidu.com' }
+          { text: 'html', link: '/accumulate/' },
+          { text: 'css', link: '/' },
+          { text: 'javascript', link: '/' }
         ]
-      }
+      },
+      {
+        text: '前端框架',
+        items: [
+          { text: 'vue', link: '/' },
+          { text: 'react', link: '/' }
+        ]
+      },
+      {
+        text: '后端基础',
+        items: [
+          { text: 'java', link: '/' },
+          { text: 'python', link: '/' }
+        ]
+      },
+      {
+        text: '服务器',
+        items: [
+          { text: 'ngnix', link: '/' }
+        ]
+      },
+      { text: '算法题库', link: '/algorithm/' },
+      {
+        text: '涉猎',
+        items: [
+          { text: '科技', link: '/others/' },
+          { text: '人文', link: '/' },
+          { text: '历史', link: '/' }
+        ]
+      },
 
     ],
-    sidebar: 'auto', // 侧边栏配置
-    sidebarDepth: 2
+    // sidebar: 'auto', // 侧边栏配置
+    // sidebarDepth: 2
   }
 };
