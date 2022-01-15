@@ -12,7 +12,7 @@
   <meta http-quiv="pragma" cotent="no-cache,must-revalidate">
   <meta http-quiv="expires" cotent="0">
     
-    <link rel="preload" href="/assets/css/0.styles.6aaa91c1.css" as="style"><link rel="preload" href="/assets/js/app.6c61dd23.js" as="script"><link rel="preload" href="/assets/js/9.1d55153b.js" as="script"><link rel="prefetch" href="/assets/js/10.1ce79f37.js"><link rel="prefetch" href="/assets/js/11.19af5ce9.js"><link rel="prefetch" href="/assets/js/12.a214cf17.js"><link rel="prefetch" href="/assets/js/2.3efe6b5a.js"><link rel="prefetch" href="/assets/js/3.44c70146.js"><link rel="prefetch" href="/assets/js/4.8d3913e6.js"><link rel="prefetch" href="/assets/js/5.d696cb13.js"><link rel="prefetch" href="/assets/js/6.a1647a49.js"><link rel="prefetch" href="/assets/js/7.3f65611f.js"><link rel="prefetch" href="/assets/js/8.108f4977.js">
+    <link rel="preload" href="/assets/css/0.styles.6aaa91c1.css" as="style"><link rel="preload" href="/assets/js/app.4bf50b4b.js" as="script"><link rel="preload" href="/assets/js/9.1d55153b.js" as="script"><link rel="prefetch" href="/assets/js/10.1ce79f37.js"><link rel="prefetch" href="/assets/js/11.19af5ce9.js"><link rel="prefetch" href="/assets/js/12.a214cf17.js"><link rel="prefetch" href="/assets/js/2.3efe6b5a.js"><link rel="prefetch" href="/assets/js/3.44c70146.js"><link rel="prefetch" href="/assets/js/4.8d3913e6.js"><link rel="prefetch" href="/assets/js/5.d696cb13.js"><link rel="prefetch" href="/assets/js/6.a1647a49.js"><link rel="prefetch" href="/assets/js/7.3f65611f.js"><link rel="prefetch" href="/assets/js/8.108f4977.js">
     <link rel="stylesheet" href="/assets/css/0.styles.6aaa91c1.css">
   </head>
   <body>
@@ -90,6 +90,6 @@ watcher相当于一个中介角色，数据发生变化时通知它，然后它�
 上面的watcher只是侦测一个属性的变化,observer会将一个数据内的所有属性(包括子属性)都会转成getter/setter方法,去追踪它们。</p> <p>即：只要我们将一个object传到Observer中，那么这个object就会变成响应式的object。</p> <p><strong>注意：</strong><br>
 Vue使用以上模式可以追踪一个属性是否被修改，无法追踪该属性是否新增或删除，解决方法：使用vm.$set跟Vm.$delete</p> <p><strong>图论:</strong><br></p> <p><img src="https://img-blog.csdnimg.cn/3e98f250653f45b6a8c7516822f54941.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA56m55YiA,size_20,color_FFFFFF,t_70,g_se,x_16" alt="avatar">
 Data通过observer转换成了getter/setter的形式追踪变化,当外界通过</p> <p>Watcher读取数据时,会触发getter从而将watcher添加到依赖中,当数据发生了变化时,会触发setter,从而向Dep中的依赖(Watcher)发送通知。Watcher接收到通知后，会向外界发送通知，变化通知到外界后可能会触发视图更新</p></div> <div class="page-edit"><!----> <!----></div> <!----> </div> <!----></div></div>
-    <script src="/assets/js/app.6c61dd23.js" defer></script><script src="/assets/js/9.1d55153b.js" defer></script>
+    <script src="/assets/js/app.4bf50b4b.js" defer></script><script src="/assets/js/9.1d55153b.js" defer></script>
   </body>
 </html>
