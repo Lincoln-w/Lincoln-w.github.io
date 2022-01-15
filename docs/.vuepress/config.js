@@ -1,9 +1,10 @@
 module.exports = {
-  description: '穹刀的个人博客',
+  title: '穹刀', //这里可以换成你的username
+  description: '保持学习,保持进步',
   head: [ // 注入到当前页面的 HTML <head> 中的标签
-    ['link', { rel: 'icon', href: '/images/iuk.jpg' }],
-    ['link', { rel: 'manifest', href: '/images/iuk.jpg' }],
-    ['link', { rel: 'apple-touch-icon', href: '/images/iuk.jpg' }],
+    ['link', { rel: 'icon', href: '/images/jcw01.png' }],
+    ['link', { rel: 'manifest', href: '/images/jcw01.png' }],
+    ['link', { rel: 'apple-touch-icon', href: '/images/jcw01.png' }],
     ['meta', { 'http-quiv': 'pragma', cotent: 'no-cache' }],
     ['meta', { 'http-quiv': 'pragma', cotent: 'no-cache,must-revalidate' }],
     ['meta', { 'http-quiv': 'expires', cotent: '0' }]
@@ -20,15 +21,15 @@ module.exports = {
       {
         text: '前端基础',
         items: [
-          { text: 'html', link: '/' },
-          { text: 'css', link: '/' },
-          { text: 'javascript', link: '/' }
+          { text: 'html', link: '/front-end/html/' },
+          { text: 'css', link: '/front-end/css/' },
+          { text: 'javascript', link: '/front-end/javascript/' }
         ]
       },
       {
         text: '前端框架',
         items: [
-          { text: 'vue', link: '/' },
+          { text: 'vue', link: '/front-frame/vue/' },
           { text: 'react', link: '/' }
         ]
       },
@@ -56,7 +57,7 @@ module.exports = {
       },
 
     ],
-    // sidebar: 'auto', // 侧边栏配置
-    // sidebarDepth: 2
+    sidebar: 'auto', // 侧边栏配置
+    sidebarDepth: 2
   }
 };

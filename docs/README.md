@@ -1,7 +1,6 @@
 ---
 home: true
 heroImage: /images/qiongdao.png
-actionLink: guide.html
 features:
 - title: 前端
   details: html/css/javascript基础,vue/react前端框架
