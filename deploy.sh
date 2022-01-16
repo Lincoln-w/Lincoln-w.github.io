@@ -14,7 +14,7 @@ echo 'www.zhangyunchen.cc' > CNAME
 
 git init
 git add -A
-git commit -m 'deploy12356'
+git commit -m 'deployABCDEFG'
 
 # 如果你想要部署到 https://<USERNAME>.github.io
 git push -f https://github.com/Lincoln-w/Lincoln-w.github.io.git master:gh-pages
